@@ -1,0 +1,28 @@
+###
+GET http://localhost:9000/category HTTP/1.1
+
+###
+GET http://localhost:9000/category/1 HTTP/1.1
+
+###
+POST http://localhost:9000/category HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Nineras",
+    "description": "10",
+    "img": "https://firebasestorage.googleapis.com/v0/b/suitte-df627.appspot.com/o/ICONOROPA.png?alt=media&token=7b8c48b1-ccea-480f-8e13-d63e69905cb4"
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/category/9 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Nineras",
+    "description": "BLABALABALABALAB",
+    "img": "https://firebasestorage.googleapis.com/v0/b/suitte-df627.appspot.com/o/ICONOROPA.png?alt=media&token=7b8c48b1-ccea-480f-8e13-d63e69905cb4"
+}
