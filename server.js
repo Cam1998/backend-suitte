@@ -9,7 +9,7 @@ const products = require('./products')
 const home = require('./homex')
 
 const app = express()
-app.set('port', process.env.PORT || PORT)
+app.set('port', process.env.PORT || 9000)
 
 const whitelist = [
     'http://localhost:3000'
