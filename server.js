@@ -40,6 +40,6 @@ app.use('/products', products)
 app.use('/homex', home)
 
 // server running -----------------------------------
-app.listen(app.get('port'), ()=>{
-    console.log('server running on port', app.get('port'))
-})
+app.listen(process.env.PORT || PORT, ()=>{
+    console.log(`server running on port ${PORT}`);
+});
