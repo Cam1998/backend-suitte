@@ -12,15 +12,15 @@ const app = express()
 app.set('port', process.env.PORT || 9000)
 
 const whitelist = [
-    'http://localhost:3000'
+    'https://suitte-front.herokuapp.com'
 ]
 
 const dbOptions = {
-    host: 'localhost',
+    host: 'bsstzjrqbywd4asduwme-mysql.services.clever-cloud.com',
     port: 3306,
-    user: 'root',
-    password: '',
-    database: 'suitte'
+    user: 'uffhtcwwerfnzc2m',
+    password: '9u874UOkqjs7HMuNFo6D',
+    database: 'bsstzjrqbywd4asduwme'
 }
 
 // middlewares -------------------------------------
