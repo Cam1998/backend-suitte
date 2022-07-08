@@ -12,7 +12,7 @@ const app = express()
 app.set('port', process.env.PORT || 9000)
 
 const whitelist = [
-    'https://suitte-front.herokuapp.com'
+    'https://v-suitte.herokuapp.com'
 ]
 
 const dbOptions = {
